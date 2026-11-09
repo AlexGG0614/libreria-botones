@@ -1,0 +1,284 @@
+.btn{
+    background-color: #1565C0;
+    color: #FFFFFF;
+    border: #1565C0 2px solid;
+    padding: 8px 16px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+/* Categoría 1. Fundamentos y colores — básico */
+.btn-primary{
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
+.btn-secondary{
+    background-color: #D1D5DB;
+    color: #111827;
+}
+.btn-success{
+    background-color: #16703C;
+    color: #FFFFFF;
+}
+.btn-danger{
+    background-color: #B91C1C;
+    color: #FFFFFF;
+}
+.btn-warning{
+    background-color: #FACC15;
+    color: #111827;
+}
+.btn-info{
+    background-color: #67E8F9;
+    color: #111827;
+}
+.btn-dark{
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+.btn-light{
+    background-color: #F9FAFB;
+    color: #111827;
+    border-color: #6B7280;
+}
+.btn-text{
+    background-color: transparent;
+    border-color: transparent;
+    color: #1565C0;
+}
+.btn-custom{
+    background-color: #6D28D9;
+    color: #FFFFFF;
+}
+
+/*Categoría 2. Bordes, tamaños y formas*/
+.btn-outline{
+background-color: transparent;
+border-color: #1565C0;
+color: #1565C0;
+}
+.btn-border-thick{
+border-width: 4px;
+border-color: #111827;
+}
+.btn-border-dashed{
+border-style: dashed;
+border-color: #111827;
+}
+.btn-border-dotted{
+border-style: dotted;
+border-color: #111827;
+}
+.btn-rounded{
+border-radius: 10px;
+}
+.btn-pill{
+border-radius: 50px;
+}
+.btn-circle{
+border-radius: 50px;
+width: 90px;
+height: 90px;
+}
+.btn-small{
+    font-size: 12px;
+    padding: 4px 8px;
+}
+.btn-large{
+    font-size: 24px;
+    padding: 12px 24px;
+}
+.btn-full{
+    width: 100%;
+}
+
+/*Categoría 3. Tipografía y sombras*/
+.btn-uppercase{
+    text-transform: uppercase;
+}
+.btn-spaced{
+    letter-spacing: 2px;
+}
+.btn-bold{
+    font-weight: bold;
+}
+.btn-elegant{
+    font-family: 'Georgia', serif;
+}
+.btn-underline{
+    text-shadow: 0 3px 2px #cdb6e3;
+}
+.btn-shadow-soft{
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+}
+.btn-shadow-strong{
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.75);
+}
+.btn-shadow-color{
+    box-shadow: 4px 8px 16px #1565C0;
+}
+.btn-relief{
+    box-shadow: 3px 6px 6px #0D47A1, 
+                6px 8px 10px rgba(0, 0, 0, 0.15);
+}
+.btn-text-glow{
+    background-color: #111827;
+    color: #FFFFFF;
+    text-shadow: 0 0 4px #67E8F9, 
+                0 0 10px #67E8F9;
+}
+/*Categoría 4. Degradados*/
+.btn-gradient-horizontal{
+    background: linear-gradient(to right, #1E3A8A, #6D28D9);
+    color: #FFFFFF;
+}
+.btn-gradient-vertical{
+    background: linear-gradient(to bottom, #064E3B, #0F766E);
+    color: #FFFFFF;
+}
+.btn-gradient-diagonal{
+    background: linear-gradient(to bottom right, #7F1D1D, #9A3412);
+    color: #FFFFFF;
+}
+.btn-gradient-three{
+    background: linear-gradient(to right, #F59E0B, #FACC15, #EAB308);
+    color: #FFFFFF;
+}
+.btn-gradient-radial{
+    background: radial-gradient(circle, #115E59, #134E4A);
+    color: #FFFFFF;
+    border-color: #134E4A;
+}
+.btn-gradient-sunset{
+    background: radial-gradient(circle, #7F1D1D, #9A3412, #B45309);
+    color: #FFFFFF;
+}
+.btn-gradient-ocean{
+    background: linear-gradient(to right, #075985,#065F46);
+    color: #FFFFFF;
+}
+.btn-gradient-pastel{
+    background: linear-gradient(to right, #FBCFE8, #DDD6FE);
+    color: #111827;
+}
+.btn-gradient-border{
+    background-color: #FFFFFF;
+    color: #111827;
+    border-image: linear-gradient(to right, #1565C0, #6D28D9) 1;
+}
+.btn-gradient-hover{
+    background: linear-gradient(to right, #1E3A8A, #6D28D9);
+    color: #FFFFFF;
+}
+.btn-gradient-hover:hover{
+    background: linear-gradient(to right, #6D28D9, #1E3A8A);
+    color: #FFFFFF;
+}
+
+/*Categoría 5. Estados e interacción*/
+.btn-hover-background{
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
+.btn-hover-background:hover{
+    background-color: #0D47A1;
+}
+.btn-hover-text{
+    background-color: #FFFFFF;
+    color: #1565C0;
+}
+.btn-hover-text:hover{
+    color: #6D28D9;
+}
+.btn-hover-border{
+    background-color: #FFFFFF;
+    color: #111827;
+    border-color: #1565C0;
+}
+.btn-hover-border:hover{
+    border-color: #6D28D9;
+}
+.btn-hover-shadow{
+    background-color: #1565C0;
+    color: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+}
+.btn-hover-shadow:hover{
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.75);
+}
+.btn-hover-underline{
+    background-color: #FFFFFF;
+    color: #1565C0;
+    text-decoration: none;
+}
+.btn-hover-underline:hover{
+    text-decoration: underline;
+}
+.btn-active{
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
+.btn-active:active{
+    background-color: #0D47A1;
+}
+.btn-focus{
+    background-color: #1565C0;
+    color: #FFFFFF;
+}
+.btn-focus:focus{
+    background-color: #0D47A1;
+}
+.btn-disabled{
+    background-color: #D1D5DB;
+    color: #9CA3AF;
+    cursor: not-allowed;
+}
+.btn-transition-slow:hover{
+    background-color: #e28409;
+    border-color: #ad3956;
+    transition: all 2s ease;
+}
+.btn-transition-stagger:hover{
+    background-color: #b41034;
+    border-color: #328346;
+    transition: background-color 2s ease, border-color 1s ease;
+}
+
+/*Categoría 6. Transformaciones — intermedio*/
+.btn-grow:hover{
+    transform: scale(1.1);
+}
+.btn-shrink:hover{
+    transform: scale(0.9);
+}
+.btn-lift:hover{
+    transform: translateY(-5px);
+}
+.btn-move-right:hover{
+    transform: translateX(5px);
+}
+.btn-rotate:hover{
+    transform: rotate(15deg);
+}
+.btn-skew:hover{
+    transform: skewX(20deg);
+}
+.btn-press:active{
+    transform: translateY(2px);
+}
+.btn-perspective{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transform-style: preserve-3d;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s ease;
+}
+.btn-perspective:hover{
+    transform: perspective(500px) rotateX(10deg) rotateY(10deg);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.btn-icon-move:hover{
+    transform: translateX(5px);
+}
